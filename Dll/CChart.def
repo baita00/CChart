@@ -1,0 +1,39 @@
+LIBRARY CChart
+
+EXPORTS
+
+??0CChartWnd@@QAE@XZ													@1
+??1CChartWnd@@UAE@XZ													@2
+?GetChart@CChartWnd@@QAEPAVCChart@@XZ									@3
+?Attach@CChartWnd@@QAE_NPAUHWND__@@H@Z									@4
+?Attach@CChartWnd@@QAE_NPAUHWND__@@HUtagRECT@@@Z						@5
+?Detach@CChartWnd@@QAE_NXZ												@6
+
+??0CChart@@QAE@XZ														@7
+??1CChart@@UAE@XZ														@8
+?OnDraw@CChart@@QAEXPAUHWND__@@@Z										@9
+?OnDraw@CChart@@QAEXPAUHDC__@@UtagRECT@@@Z								@10
+?OnLButtonDown@CChart@@QAE_NPAUHWND__@@UtagPOINT@@@Z					@11
+?OnLButtonUp@CChart@@QAE_NPAUHWND__@@UtagPOINT@@@Z						@12
+?OnLButtonDblClk@CChart@@QAE_NPAUHWND__@@UtagPOINT@@@Z					@13
+?OnMouseMove@CChart@@QAE_NPAUHWND__@@UtagPOINT@@@Z						@14
+?OnContextMenu@CChart@@QAE_NPAUHMENU__@@PAUHWND__@@UtagPOINT@@@Z		@15
+?OnKeyDown@CChart@@QAE_NPAUHWND__@@I@Z									@16
+?Interactive@CChart@@QAEXPAUHWND__@@IIJ@Z								@17
+?GetPlot@CChart@@QAEPAXXZ												@18
+?GetType@CChart@@QAEHXZ													@19
+?SetType@CChart@@QAE_NH@Z												@20
+?SetConfineRect@CChart@@QAE_NPAUHWND__@@UtagRECT@@@Z					@21
+?AddCurve@CChart@@QAEHPAN0HH@Z											@22
+?AddLayer@CChart@@QAEHXZ												@23
+?ResizePlots@CChart@@QAEXHHH@Z											@24
+?SetTitle@CChart@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z			@25
+;	?SetTitle@CChart@@QAEXV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@@Z			@25
+?SetTitle@CChart@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z			@26
+;	?SetTitle@CChart@@QAEXV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@H@Z			@26
+?AddAxis@CChart@@QAEXHH@Z												@27
+?SetAxisTitle@CChart@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z	@28
+;	?SetAxisTitle@CChart@@QAEXV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@HH@Z	@28
+?SetUseLegend@CChart@@QAEX_NH@Z											@29
+?SetGridLine@CChart@@QAEX_N000H@Z										@30
+?SetBkgndColor@CChart@@QAEXKH@Z											@31

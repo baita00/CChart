@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plot", "Plot.vcxproj", "{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DebugU|Win32 = DebugU|Win32
+		DebugU|x64 = DebugU|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		ReleaseU|Win32 = ReleaseU|Win32
+		ReleaseU|x64 = ReleaseU|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|Win32.Build.0 = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|x64.ActiveCfg = Debug|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|x64.Build.0 = Debug|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|Win32.ActiveCfg = DebugU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|Win32.Build.0 = DebugU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|x64.ActiveCfg = DebugU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|x64.Build.0 = DebugU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|Win32.ActiveCfg = Release|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|Win32.Build.0 = Release|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|x64.ActiveCfg = Release|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|x64.Build.0 = Release|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|Win32.ActiveCfg = ReleaseU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|Win32.Build.0 = ReleaseU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|x64.ActiveCfg = ReleaseU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|x64.Build.0 = ReleaseU|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
