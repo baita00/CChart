@@ -2,17 +2,17 @@ Introduction
 
 ---
 
-CChart is a simple and convenient curve drawing library. It can draw many kinds of two-dimensional and three-dimensional curves. It is based on C++ and Win32 API.
+CChart is a simple and convenient curve plotting library. It can draw many kinds of 2D and 3D curves. It is based on C++ and Win32 API.
 
 The prototype of CChart is CPlot, which has been extensively extended. CPlot's official website is http://cplot.sourceforge.net/, thanks to its author Todd Clements.
 
-The author uses Microsoft Visual C++ 6.0 to develop and support all higher versions of Visual Studio. The code does not use any new functions after C++ 98 standard, and the selected tripartite libraries are compatible with VC6.0.
+The author uses Microsoft Visual C++ 6.0 to develop. The code supports all higher versions of Visual Studio. The code does not use any new functions after C++ 98 standard, and the selected Third-party libraries are compatible with VC6.0.
 
-The author is not a professional programmer, so the code is not particularly standard, especially the annotation is incomplete, but the author has tried to make the code have a certain self-annotation function.
+The author is not a professional programmer, so the code is not particularly standard, especially the comments are incomplete, but the author has tried to make the code have a certain self-annotation function.
 
 At present, a small number of functions of this library are still under development, without affecting the use.
 
-Further information can be obtained at www.cchart.net, and the author can be contacted by e-mail baita00@hotmail.com.
+Further information can be obtained at the website www.cchart.net, and the author can be contacted by e-mail baita00@hotmail.com.
 
 
 
@@ -33,23 +33,23 @@ Features:
 
 * Full-featured.
 
-It can draw a variety of two-dimensional and three-dimensional curves, such as polygon, contour, cloud, pie, bar, scatter, area, histogram, polar, Gantt, radar, waterfall, thermal, box, spectrum, etc. It also supports the drawing of various dashboard interfaces.
+It can draw a variety of 2D and 3D curves, such as line chart, contour chart, cloud chart, pie chart, bar chart, scatter chart, area chart, histogram chart, polar chart, Gantt chart, radar chart, waterfall chart, thermal chart, box chart, spectrum chart, etc. It also supports the drawing of various dashboard interfaces.
 
 * Plenty of internal options.
 
-Whether it is the curve itself, or the title, coordinate axis, legend, background, image annotation and other parts, there are a large number of options available for setting, even message response, right-click menu and other elements, all provide a custom method.
+Whether the curve itself, or the title, coordinate axis, legend, background, image annotation and other parts, there are a large number of options available for setting, even message response, right-click menu and other elements, all provide a custom method.
 
 * Friendly user interface.
 
-It simplifies the call interface as much as possible, and in the absence of special requirements, it can usually draw delicate images with only a few sentences of code.
+It simplifies the calling interface as much as possible. Without special requirements, it can usually draw delicate images with only a few lines of code.
 
 * Good compatibility.
 
-Only the Win32/Win64 API is used in the development, and no framework code (such as MFC, QT, etc.) is used. Therefore, user programs are not limited to a framework.
+Only the Win32/Win64 API is used in the code, and no framework codes (such as MFC, QT, etc.) are used. Therefore, the users are not limited to a framework.
 
 * Built-in thread security.
 
-You can safely use it in a multi-threaded environment to avoid crashes.
+You can safely use it in a multi-threaded environment, without crash.
 
 * Compatible with 64 bits.
 
@@ -80,8 +80,8 @@ You can copy the file and modify the following two lines at the beginning of thi
 
 Revised as follows
 
-# define CChart_API__declspec(dllimport)
-//# define CChart_API
+#define CChart_API__declspec(dllimport)
+//#define CChart_API
 
 3. Resource files
 
@@ -89,7 +89,7 @@ When using static libraries, you should include resource files by the following 
 
 When using VC6, you can add the following commands in the View -> Resource Includes menu.
 
-# include "Plot\Resources\PlotResources.rc"
+#include "Plot\Resources\PlotResources.rc"
 
 At the same time, you need to set Additional resource include directories in the project properties as
 
