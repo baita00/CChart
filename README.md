@@ -6,11 +6,9 @@ CChart is a simple and convenient curve plotting library. It can draw many kinds
 
 The prototype of CChart is CPlot, which has been extensively extended. CPlot's official website is http://cplot.sourceforge.net/, thanks to its author Todd Clements.
 
-The author uses Microsoft Visual C++ 6.0 to develop. The code supports all higher versions of Visual Studio. The code does not use any new functions after C++ 98 standard, and the selected Third-party libraries are compatible with VC6.0.
+The author uses Microsoft Visual C++ 6.0 to develop. The code supports all higher versions of Visual Studio, and does not use any new functions after C++ 98 standard, and the selected Third-party libraries are compatible with VC6.0.
 
-The author is not a professional programmer, so the code is not particularly standard, especially the comments are incomplete, but the author has tried to make the code have a certain self-annotation function.
-
-At present, a small number of functions of this library are still under development, without affecting the use.
+The author is not a professional programmer, so the code is not so standard, especially the comments are incomplete. The author has tried to make the code to be somewhat self-annotation.
 
 Further information can be obtained at the website www.cchart.net, and the author can be contacted by e-mail baita00@hotmail.com.
 
@@ -76,7 +74,7 @@ When programming with dynamic libraries, the header file needed to be included i
 You can copy the file and modify the following two lines at the beginning of this file.
 
 //# define CChart_API__declspec(dllimport)
-# define CChart_API
+#define CChart_API
 
 Revised as follows
 
@@ -118,7 +116,6 @@ CChart是一款简单方便的曲线绘制库，基于C++和Win32API，可以绘
 CChart的原型是CPlot，已经在其基础上进行了大量的扩充。CPlot的官方网址是http://cplot.sourceforge.net/，感谢其作者Todd Clements。
 作者使用Microsoft Visual C++ 6.0开发，支持所有更高版本的Visual Studio。代码中没有使用C++ 98标准以后的任何新功能，所选用的三方库，也都兼容VC6.0。
 作者不是专业程序员，因此代码并不特别规范，特别是注释并不完整，但作者已尽量使得代码具有一定的自注释功能。
-目前，本库的少量功能还在开发中，不影响使用。
 可以访问www.cchart.net获得进一步的信息，亦可通过电子邮件baita00@hotmail.com联系作者。
 
 
@@ -152,9 +149,9 @@ CChart的特点：
 用动态库编程时，需要包含的头文件是Source/Plot/Wraper文件夹中的Chart.h，但需要略加修改。
 可以拷贝该文件，把文件开头两行
 //#	define CChart_API __declspec(dllimport)
-#	define CChart_API
+#define CChart_API
 修改如下
-#	define CChart_API __declspec(dllimport)
+#define CChart_API __declspec(dllimport)
 //#	define CChart_API
 3.资源文件
 使用静态库时，请包含资源文件
