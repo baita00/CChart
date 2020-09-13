@@ -17,11 +17,30 @@ holloworld::holloworld(QWidget *parent) :
 //    pfunction = contourmap;
 
 
+    //contour map
+//    m_ChartWnd.Attach((HWND)this->winId(), kTypeContourLine);
+//    m_ChartWnd.GetChart()->SetFieldFcn(contourmap);
+//    m_ChartWnd.GetChart()->SetPlotRange(-2.0, 2.0, -2.0, 2.0);
+//    m_ChartWnd.GetChart()->SetContourPrecision(8);
 
-    m_ChartWnd.Attach((HWND)this->winId(), kTypeContourLine);
-    m_ChartWnd.GetChart()->SetFieldFcn(contourmap);
-    m_ChartWnd.GetChart()->SetPlotRange(-2.0, 2.0, -2.0, 2.0);
-    m_ChartWnd.GetChart()->SetContourPrecision(8);
+
+    m_ChartWnd.Attach((HWND)this->winId(), kTypeXY);
+
+    m_ChartWnd.GetChart()->SetAxisTitle(_T("x-axis"), 1);
+    m_ChartWnd.GetChart()->SetAxisTitle(_T("y-axis"), 0);
+
+    double pX[360], pY[360];
+    double Pi = 3.1415926536;
+    int i;
+
+    //add 1 courve
+    for(i=0; i<360; i++)
+    {
+        pX[i] = i;
+        pY[i] = 2.0*sin(i*2.0*Pi/360.0*3.0);
+    }
+    m_ChartWnd.GetChart()->AddCurve(pX, pY, 360);
+
     ui->setupUi(this);
 }
 
