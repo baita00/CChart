@@ -1,0 +1,11 @@
+﻿#generated files in build folder
+Source/Debug/
+Source/Release/
+Source/Bin/
+Dll/Debug/
+Dll/Release/
+Dll/Bin/
+
+#generated files in demo folder
+Demos/ForStaticLib/holloworldforqt/debug
+Demos/ForStaticLib/holloworldforqt/release
