@@ -19,5 +19,5 @@ HEADERS  += holloworld.h
 
 FORMS    += holloworld.ui
 
-LIBS += -LD:/GITHUB/CChart/Demos/ForStaticLib/holloworldforqt/3rd/ -lCChart
-LIBS += -LD:/GITHUB/CChart/Demos/ForStaticLib/holloworldforqt/3rd/ -lCChartu
+LIBS += -L../../ForDynamicLib/PreCompiled/ -lCChart
+LIBS += -L../../ForDynamicLib/PreCompiled/ -lCChartu

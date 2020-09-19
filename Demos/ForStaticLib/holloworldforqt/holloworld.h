@@ -5,11 +5,11 @@
 #include<tchar.h>
 
 
-#include "3rd/Chart.h"
+#include "../../ForDynamicLib/PreCompiled/Chart.h"
 #if defined (_UNICODE) || defined(UNICODE)
-#pragma comment(lib,"3rd/CChartu.lib")
+#pragma comment(lib,"../../ForDynamicLib/PreCompiled/CChartu.lib")
 #else
-#pragma comment(lib,"3rd/CChart.lib")
+#pragma comment(lib,"../../ForDynamicLib/PreCompiled/CChart.lib")
 #endif
 using namespace NsCChart;
 
