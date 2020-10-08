@@ -1,0 +1,7 @@
+﻿#generated files in build folder
+Source/Debug/
+Source/Release/
+Source/Bin/
+Dll/Debug/
+Dll/Release/
+Dll/Bin/
